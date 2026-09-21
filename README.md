@@ -12,7 +12,7 @@ The project is built on a modular architecture optimized for high-speed inferenc
 - **ONNX Runtime & INT8 Quantization:** Substantially boosted CPU inference speeds and reduced memory usage via Graph Optimization and Dynamic INT8 Quantization.
 - **Smart Model Fallback System:** Dynamically loads the most optimized available model weight at runtime:
 
-  $$\text{best\_int8.onnx} \longrightarrow \text{best.onnx} \longrightarrow \text{best.pt}$$
+  $$\mathtt{best\_int8.onnx} \longrightarrow \mathtt{best.onnx} \longrightarrow \mathtt{best.pt}$$
 
 - **Spatial Order Sorting:** Sorts detected bounding boxes based on natural reading order (top-to-bottom, left-to-right) for logical file naming (`image-mathlens-01.png`).
 - **Flexible Configuration:** Customizable confidence threshold (`conf_threshold`), bounding box padding, and minimum cropping size.
