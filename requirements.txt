@@ -1,0 +1,10 @@
+ultralytics>=8.0.0
+torch
+torchvision
+numpy
+onnx>=1.12.0
+onnxruntime
+onnxslim
+opencv-python
+pillow
+PyYAML

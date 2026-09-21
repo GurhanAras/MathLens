@@ -1,0 +1,14 @@
+path: . 
+train: dataset/train/images
+val: dataset/valid/images
+test: dataset/test/images
+
+nc: 1
+names: ['mathlens']
+
+roboflow:
+  workspace: gurhan-aras
+  project: mathlens-ogb51
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/gurhan-aras/mathlens-ogb51/dataset/1
